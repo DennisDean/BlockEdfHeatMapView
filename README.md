@@ -5,10 +5,10 @@ BlockEdfHeatMapView
 A heatmap can be created for each signal in an EDF or for selected signals. Alternatively, a panel of heatmaps can be created. Heatmap's x axis can be selected from preset durations that correspond to values often used in sleep and circadian research. The HeatMap function is designed to provide a way to quickly review the contents of large number of sleep studies.
 
 
-# Getting started:
+## Getting started:
 The fastest way to get started is to run tests in the associated test file. Public properties contain the most common parameters for configuring HeatMaps.  More advance users may want to review private properties before modifying.
 
-# Examples included in test file
+### Examples included in test file
 TEST_1: Specify edf as a file
 TEST_2: Specify signals to heatmaps to generate
 TEST_3: Specify EDF data as a structure
@@ -17,9 +17,9 @@ TEST_5  Test heatmap resolution (2, 32, and 128)
 TEST_6  Create panel
 TEST_7  Summarize folder of EDFs by creating a pandel for each EDF and saving the figures in a power point file.      
              
-# Most common changes from default settings
+## Most common changes from default settings
 
-## Setting x axis duration:
+### Setting x axis duration:
 The x axis duration is set by indexing a private duration array. The sequential values of the array are:
   
          1, 2, 5, 10, 15, 20, 30 seconds
@@ -29,7 +29,7 @@ The x axis duration is set by indexing a private duration array. The sequential 
        example obj.xAxisDurationIndex = 7, sets the x axis duration to 30
        seconds
     
-## Setting figure size:
+### Setting figure size:
 It is sometimes helpful to preset the figure size.  Use the command get (figure_id, 'Position') to get the values for a displayed MATLAB figure appropriately scaled on your screen. Then set obj.figPosition to the values.
 
     % Constructors:
@@ -63,7 +63,7 @@ It is sometimes helpful to preset the figure size.  Use the command get (figure_
     %          titleFontSize :  Title font size
     %
 
-# External References:
+## External References:
 
     %
     %    BlockEdfLoad.m
@@ -73,13 +73,13 @@ It is sometimes helpful to preset the figure size.  Use the command get (figure_
     %    http://www.mathworks.com/matlabcentral/fileexchange/20003-panel
     %
     
-# Test functions uses:
+## Test functions uses:
     %
     %    saveppt2.m
     %    http://www.mathworks.com/matlabcentral/fileexchange/19322-saveppt2
     %
     
-# Links to additional resources
+## Links to additional resources
     %    
     %    National Sleep Research Resource
     %    https://sleepdata.org/
