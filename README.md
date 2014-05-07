@@ -2,13 +2,13 @@ BlockEdfHeatMapView
 ===================
 
 
-A heatmap can be created for each signal in an EDF or for selected signals. Alternatively, a panel of heatmaps can be created. Heatmap's x axis can be selected from preset durations that correspond to values often used in sleep and circadian research. The HeatMap function is designed to provide a way to quickly review the contents of large number of sleep studies.
+A heatmap can be created for each signal in an EDF or for selected signals. Alternatively, a panel of heatmaps can be created. A heatmap's x-axis can be selected from preset durations that correspond to values often used in sleep and circadian research. The HeatMap function is designed to provide a way to quickly review the contents of large number of sleep studies.
 
 Example output can be found [here](https://github.com/DennisDean/BlockEdfHeatMapView/releases)
 
 
 ## Getting started:
-The fastest way to get started is to run tests in the associated test file. Public properties contain the most common parameters for configuring HeatMaps.  More advance users may want to review private properties before modifying.
+The fastest way to get started is to run tests in the associated test file. Public properties contain the most common parameters for configuring HeatMaps. Advanced users may want to review private properties before modifying.
 
 ### Examples included in test file
 * TEST_1: Specify edf as a file
